@@ -4,7 +4,7 @@ abstract class ApiKeys {
   static const baseUrl = 'http://api.weatherapi.com/v1/';
 
   /// [apiKeys] - Токен апи
-  static const apiKeys = "18a98a2ba8154b80b9a110843242411";
+  static const apiKeys = "06da0ebda51d467d94272123240612";
 
   /// [GET] - запрос на получение погоды
   static const kGetWeather = '/current.json';

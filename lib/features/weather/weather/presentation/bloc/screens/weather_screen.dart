@@ -116,7 +116,7 @@ class _WeatherScreenState extends State<WeatherScreen> {
                                           // getIt<GetWeatherCubit>();
                                           context.read<GetWeatherCubit>().getWeather(value);
                                         },
-                                        emptyBuilder: (context) => const Text('Не нашёл такого города :C', style: TextStyle(color: Colors.white),),
+                                        emptyBuilder: (context) => const Text('Не нашёл такого города :C', style: TextStyle(color: Colors.black),),
                                         suggestionsCallback: (search) {
                                           return CitiesService.getSuggestions(search, cities);
                                         }
